@@ -162,8 +162,8 @@
 /* Content elements */
 
 .demo-1 .deco {
-	width: 260px;
-	height: 260px;
+	width: 240px;
+	height: 240px;
 	border: 2px dashed #ddd;
 	border: 2px dashed rgba(150,150,150,0.4);
 	border-radius: 50%;
@@ -183,7 +183,7 @@
 	height: 220px;
 	line-height: 220px;
 	text-align: center;
-	font-size: 100px;
+	font-size: 150px;
 	top: 50%;
 	left: 50%;
 	margin: -110px 0 0 -110px;
@@ -196,9 +196,9 @@
 	text-shadow: 0 0 1px #000;
 	padding: 20px;
 	position: absolute;
-	font-size: 34px;
+	font-size: 29px;
 	font-weight: 700;
-	letter-spacing: 13px;
+	letter-spacing: 10px;
 	text-transform: uppercase;
 	width: 80%;
 	left: 10%;
@@ -213,9 +213,9 @@
 	width: 100%;
 	text-align: center;
 	left: 0;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 20px;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 24px;
 	height: 70px;
 	color: #8b8b8b;
 	z-index: 2;
@@ -231,29 +231,7 @@
 	position: relative;
 }
 
-.demo-1 .sl-slide blockquote p:before {
-	color: #f0f0f0;
-	color: rgba(244,244,244,0.65);
-	font-family: "Bookman Old Style", Bookman, Garamond, serif;
-	position: absolute;
-	line-height: 60px;
-	width: 75px;
-	height: 75px;
-	font-size: 200px;
-	z-index: -1;
-	left: -80px;
-	top: 35px;
-	content: '\201C';
-}
 
-.demo-1 .sl-slide blockquote cite {
-	font-size: 10px;
-	padding-top: 10px;
-	display: inline-block;
-	font-style: normal;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-}
 
 /* Custom background colors for slides in first demo */
 
@@ -281,7 +259,7 @@
 /* Third Slide */
 .demo-1 .bg-3 .sl-slide-inner,
 .demo-1 .bg-3 .sl-content-slice {
-	background: #db84ad;
+	background: #CDABF9;
 }
 
 .demo-1 .bg-3 .deco {
@@ -292,7 +270,7 @@
 .demo-1 .bg-3 [data-icon]:after {
 	color: #fff;
 	text-shadow: 0 0 1px #fff;
-	box-shadow: inset 0 0 0 10px #b55381;
+	box-shadow: inset 0 0 0 10px #945daf1;
 }
 
 .demo-1 .bg-3 h2,
