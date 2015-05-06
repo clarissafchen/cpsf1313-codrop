@@ -16,7 +16,7 @@
 .demo-2 .sl-slider h2,
 .demo-2 .sl-slider blockquote {
 	padding: 100px 30px 10px 30px;
-	width: 80%;
+	width: 90%;
 	max-width: 960px;
 	color: #fff;
 	margin: 0 auto;
@@ -213,7 +213,7 @@
 	width: 100%;
 	text-align: center;
 	left: 0;
-	font-weight: 800;
+	font-weight: 600;
 	font-size: 18px;
 	line-height: 24px;
 	height: 70px;
@@ -226,8 +226,8 @@
 
 .demo-1 .sl-slide blockquote p{
 	margin: 0 auto;
-	width: 60%;
-	max-width: 400px;
+	width: 80%;
+	max-width: 600px;
 	position: relative;
 }
 
