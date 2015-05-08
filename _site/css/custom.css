@@ -161,6 +161,16 @@
 
 /* Content elements */
 
+.demo-1 [data-icon]:before {
+		font-family: "Socialicious" !important;
+		content: attr(data-icon);
+	color: #999;
+	font-size: 25px
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; }
+
 .demo-1 .deco {
 	width: 240px;
 	height: 240px;
@@ -236,6 +246,7 @@
 /* Custom background colors for slides in first demo */
 
 /* First Slide */
+
 .demo-1 .bg-1 .sl-slide-inner,
 .demo-1 .bg-1 .sl-content-slice {
 	background: #A06FBF;
