@@ -71,7 +71,7 @@
 	width: 40px;
 	height: 40px;
 	border: 8px solid #fff;
-	border: 8px solid rgba(150,150,150,0.4);
+	border: 8px solid rgba(255,255,255,0.9);
 	text-indent: -90000px;
 	margin-top: -40px;
 	cursor: pointer;
@@ -84,7 +84,7 @@
 }
 
 .nav-arrows span:hover {
-	border-color: rgba(150,150,150,0.9);
+	border-color: rgba(255,255,255,0.5);
 }
 
 .nav-arrows span.nav-arrow-prev {
